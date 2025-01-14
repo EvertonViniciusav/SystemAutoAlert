@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel AutoAlert</title>
+    <link rel="stylesheet" href="/static/css/styleUsuarios.css">
+</head>
+<body>
+    <main>
+        <h1>Painel de Usuários</h1>
+        <div class="lista_usuarios">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>Ativo</th>
+                        <th>Criado</th>
+                        <th>Alterado</th>
+                    </tr>
+                </thead>
+                <tbody id="usuariosCadastrados"></tbody>
+            </table>
+        </div>
+        <div class="funcaoUsuario">
+            <ul>
+                <li><a href="#">🖊️ Incluir</a></li>
+                <li><a href="#">🗑️ Excluir</a></li>
+                <li><a href="#">📝 Alterar</a></li>
+                <li><a href="{{ url_for('main.dashboard') }}">📤 Voltar</a></li>
+            </ul>
+        </div>
+        <img src="/static/assets/imgLogo.png" alt="Logo">
+    </main>
+    
+
+    <script src="/static/js/scriptUsuarios.js"></script>
+</body>
+</html>

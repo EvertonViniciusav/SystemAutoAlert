@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel AutoAlert</title>
+    <link rel="stylesheet" href="/static/css/styleLogin.css">
+</head>
+<body>
+    <main>
+        <h1>Painel AutoAlert</h1>
+        <form action="/login" method="POST" id="loginForm">
+            <label for="name">
+                <span>Usuario</span>
+                <input type="text" id="name" name="name" aria-label="Campo para inserir o nome de usuário">
+                <span class="error-message" id="usernameError">Por favor, insira seu nome de usuário.</span>
+            </label>
+            <label for="password">
+                <span>Senha</span>
+                <input type="password" id="password" name="password" aria-label="Campo para inserir a senha">
+                <span class="error-message" id="passwordError">Por favor, insira sua senha.</span>
+            </label>
+
+            <input type="submit" value="Acessar Painel" id="button">
+        </form>
+    </main>
+    <section class="images">
+        <img src="/static/assets/imgLogo.png" alt="Logo">
+    </section>
+
+    <script src="/static/js/scriptLogin.js"></script>
+</body>
+</html>

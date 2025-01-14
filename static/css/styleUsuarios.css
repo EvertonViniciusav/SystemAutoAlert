@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #1B2029;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+main img {
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    top: 0.3rem;
+    left: 0.3rem;
+}
+
+main {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+main h1 {
+    color: rgb(0, 191, 255);
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: #2B2F36;
+}
+
+table th, table td {
+    border: 1px solid #3A3F47;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+table th {
+    background: #333841;
+    color: rgb(0, 191, 255);
+}
+
+table tr:nth-child(even) {
+    background: #24282F;
+}
+
+table tr:hover {
+    background: #3A3F47;
+}
+
+main .funcaoUsuario a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 50px;
+    background: rgb(0, 191, 255);
+    transition: all .3s ease-in-out;
+}
+
+main .funcaoUsuario a:hover {
+    background: #5952d4;
+}
+
+main .funcaoUsuario {
+    display: flex;
+    justify-content: center;
+}
+
+main .funcaoUsuario ul{
+    position: fixed;
+    bottom: 3rem;
+}
+
+main .funcaoUsuario ul li {
+    display: inline;
+    margin: 2rem;
+}
+

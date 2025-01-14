@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel AutoAlert</title>
+    <link rel="stylesheet" href="/static/css/stylePainel.css">
+</head>
+<body>
+    <main>
+        <h1>Bem Vindo ao Painel Administrativo</h1>
+        <img src="/static/assets/imgLogo.png" alt="Logo">
+        <div class="funcao">
+            <ul>
+                <li><a href="#">🏬 Empresas</a></li>
+                <li><a href="#">🚛 Veiculos</a></li>
+                <li><a href="#">📃 Relatórios</a></li>
+                <li><a href="{{ url_for('main.usuarios') }}">🪪 Usuários</a></li>
+                <li><a href="#">⚙️ Configuração</a></li>
+                <li><a href="{{ url_for('main.logout') }}">📤 Sair</a></li>
+              </ul>
+        </div>
+        <div class="dados">
+            <ul>
+                <li><span id="user_name">🧑‍💻 Usuário: {{ user_name }}</span></li>
+                <li><span id="user_ip"></span></li>
+                <li><span id="date_time"></span></li>
+              </ul>
+        </div>
+    </main>
+
+    <script src="/static/js/scriptPainel.js"></script>
+</body>
+</html>

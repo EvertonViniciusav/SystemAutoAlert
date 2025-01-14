@@ -1,0 +1,12 @@
+01 - Cadastro da empresa (CNPJ, nome, e-mail, telefone de contato, telefone para receber notificação do sistema)
+02 - Cadastro das placas dos veículos e os tipos de documentos e vencimentos vinculado a cada empresa
+03 - Notificar o vencimentos com 30,15,10,5,3,1,0 e vencido via WhatsApp
+04 - Envio de relatório de todas as placas com vencimentos e dias restantes no 1 de cada mês ou quando o a empresa solicitar via WhatsApp
+05 - O cliente não se preocupar com a inserção desses dados, apenas enviar para um e-mail especifico os dados e nos cadastramos no sistema
+06 - Relatório geral para mim, de todas as empresas cadastradas, todos os veículos por empresa, e vencimentos e restante por empresa
+07 - Método de login e senha para acessar os dados do sistema para incluir, alterar ou excluir algo
+08 - Segurança em dados sensíveis
+09 - Desempenho do sistema
+10 - Escalabilidade 
+11 - Linguagem base será o python, banco de dados será o Mysql, conectividade com o WhatsApp, (biblioteca que caso seja necessário usar que já conheço: mysql.connector para conectar com o banco de dados, e flet para interface)
+12 - Probabilidade de mais para frente ter como cadastrar motorista por empresa e ter o mesmo controle de vencimentos, para chn ou cursos especifico para a empresa
